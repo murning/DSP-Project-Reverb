@@ -1,4 +1,10 @@
 % MOORERREVERB
+%
+%
+% Code adapted from "Hack Audio: An Introduction to Computer Programming and Digital Signal Processing in MATLAB" © 2019 Taylor & Francis.
+% available: https://www.routledge.com/Hack-Audio-An-Introduction-to-Computer-Programming-and-Digital-Signal/Tarr/p/book/9781138497559
+%
+
 
 function [out] = MoorerReverb(in, Fs, delay)
 
