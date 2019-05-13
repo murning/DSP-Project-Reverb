@@ -1,11 +1,10 @@
 % EARLYREFLECTIONS
-% This function creates a tapped delay line to
-% be used for the early reflections of a reverb algorithm.
-% The delays and gains of the taps are included in this
-% function, and were based on an IR measurement from a
-% recording studio in Nashville, TN.
 %
-% See also MOORERREVERB
+%
+% Code adapted from "Hack Audio: An Introduction to Computer Programming and Digital Signal Processing in MATLAB" © 2019 Taylor & Francis.
+% available: https://www.routledge.com/Hack-Audio-An-Introduction-to-Computer-Programming-and-Digital-Signal/Tarr/p/book/9781138497559
+%
+
 
 
 function [out,buffer] = earlyReflections(in,buffer,Fs,n)
