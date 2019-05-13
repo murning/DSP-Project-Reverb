@@ -1,4 +1,10 @@
 % RT60
+%
+%
+% Code adapted from "Hack Audio: An Introduction to Computer Programming and Digital Signal Processing in MATLAB" © 2019 Taylor & Francis.
+% available: https://www.routledge.com/Hack-Audio-An-Introduction-to-Computer-Programming-and-Digital-Signal/Tarr/p/book/9781138497559
+%
+
 
 Fs = 48000; Ts = 1/Fs;
 in = [ 1 ; zeros(5*Fs,1)];
