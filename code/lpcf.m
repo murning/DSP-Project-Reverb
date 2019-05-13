@@ -1,16 +1,12 @@
 % LPCF
-% This function creates a feedback comb filter
-% with an LPF in the feedback path.
+
+
 %
-% Input Variables
-%n : current sample number of the input signal
-%delay : samples of delay
-%fbGain : feedback gain (linear scale)
-%amp : amplitude of LFO modulation
-%rate : frequency of LFO modulation
-%fbLPF : output delayed one sample to create basic LPF
 %
-% See also MOORERREVERB
+% Code adapted from "Hack Audio: An Introduction to Computer Programming and Digital Signal Processing in MATLAB" © 2019 Taylor & Francis.
+% available: https://www.routledge.com/Hack-Audio-An-Introduction-to-Computer-Programming-and-Digital-Signal/Tarr/p/book/9781138497559
+%
+
 
 
 function [out,buffer,fbLPF] = lpcf(in,buffer,Fs,n,delay,...
