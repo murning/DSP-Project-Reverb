@@ -1,5 +1,9 @@
 # DSP-Project-Reverb
 
+## Report
+
+* A report detailing our methods and findings is avalible in the file "report.pdf"
+
 ## Audio Examples
 
 * The "outputs" folder contains .wav files of all the results of the reverb algorithms.
